@@ -1,0 +1,50 @@
+.skills {
+  min-height: 734px;
+  padding: 50px 0 50px 0;
+  &__info_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .line {
+    margin-top: 23px;
+  }
+  &__block {
+    display: flex;
+    // justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    justify-content: center;
+    align-self: center;
+    &_item {
+      width: 320px;
+      min-height: 250px;
+      margin-right: 13px;
+      border: 1px solid black;
+      padding: 20px;
+      margin-bottom: 13px;
+    }
+    &_item:nth-of-type(3){
+      margin-right: 0px;
+    }
+    &_item:nth-of-type(6) {
+      margin-right: 0;
+    }
+    &_item:nth-of-type(9) {
+      margin-right: 0;
+    }
+    &_sub {
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 21px;
+      margin-top: 20px;
+    } 
+    &_descr {
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 18px;
+      margin-top: 15px;
+    }
+  }
+}

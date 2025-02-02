@@ -1,0 +1,383 @@
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 30px;
+  }
+  .promo {
+    height: 500px;
+    padding: 200px 0 200px 0;
+    &__menu {
+      height: 500px;
+      width: 230px;
+      &_link {
+        font-size: 20px;
+        line-height: 20px;
+      }
+    }
+    &__header__title {
+      font-size: 40px;
+    }
+    &__hamburger {
+      right: 50px;
+      span {
+        width: 33px;
+      }
+    }
+  }
+  .about-me {
+    min-height: 500px;
+    padding: 70px 0;
+    &__photo {
+      width: 300px;
+      height: 350px;
+      margin-right: 25px;
+      margin-top: 30px;
+    }
+    &__name {
+      font-size: 30px;
+    }
+    &__descr {
+      font-size: 14px;
+    }
+    .specialization { 
+      width: 300px;
+      margin-top: 20px; 
+      margin-right: 20px;
+      &_sub {
+        font-size: 14px;
+        text-align: left;
+        }
+        &_text {
+          font-size: 12px;
+        }
+    }
+  }
+
+  .skills {
+    min-height: 600px;
+    padding: 40px 0 30px 0;
+    &__block {
+      margin-top: 40px;
+      &_item {
+        width: 297px;
+      }
+
+      &_photo {
+        width: 60px;
+      }
+    }
+  }
+
+  .portfolio {
+    min-height: 500px;
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    padding: 0 40px;
+  }
+  .promo {
+    height: 350px;
+    padding: 100px 0 100px 0;
+    &__menu {
+      height: 350px;
+      &_link {
+        line-height: 15px;
+      }
+    }
+    &__header__title {
+      font-size: 35px;
+    }
+    &__hamburger {
+      right: 50px;
+      span {
+        width: 33px;
+      }
+    }
+    &__header_subtitle {
+      font-size: 18px;
+    }
+  }
+
+  .about-me {
+    min-height: 500px;
+    padding: 70px 0;
+    .promo__header_subtitle  {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      // margin-top: 50px;
+
+    }
+    .about-me__name {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .line {
+      display: block;
+      margin:  auto;
+    }
+    &__photo {
+      width: 190px;
+      height: 250px;
+      margin: 0;
+      position: absolute;
+      display: none;
+    }
+    &__name {
+      font-size: 27px;
+    }
+    &__descr {
+      font-size: 13px;
+    }
+    .specialization {
+      width: 100%;
+      &_text { 
+        font-size: 13px;
+      }
+    }
+  }
+
+  .experience {
+    padding-bottom: 30px;
+    &__block_item {
+      margin-top: 40px;
+    }
+    &__block {
+      margin-top: 45px;
+    }
+    .specialization_sub {
+      font-size: 14px;
+    }
+    .specialization_sub_title {
+      font-size: 12.5px;
+    }
+    .specialization_text {
+      font-size: 13px;
+    }
+  }
+ 
+  .skills {
+    padding-bottom: 30px;
+    &__block {
+      margin-top: 30px;
+      &_item {
+        width: 31%;
+        margin-right: 13px;
+        min-height: 200px;
+        padding: 15px;
+      }
+      &_photo {
+        width: 40px;
+      }
+      &_sub {
+        margin-top: 15px;
+        font-size: 14px;
+      }
+      &_descr {
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .portfolio {
+    &__block {
+      margin-top: 40px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .promo {
+    height: 250px;
+    padding: 50px 0 50px 0;
+    &__menu {
+      height: 250px;
+      padding: 20px 30px;
+      &_link {
+        line-height: 5px;
+        font-size: 18px;
+      }
+    }
+    &__header__title {
+      font-size: 35px;
+    }
+    &__hamburger {
+      span {
+        width: 25px;
+        height: 2px;
+      }
+    }
+    &__header_subtitle {
+      font-size: 16px;
+    }
+    &__header__title {
+      font-size: 25px;
+      line-height: 40px;
+    }
+  }
+
+  .about-me {
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+    min-height: 500px;
+    padding: 45px 0;
+    .promo__header_subtitle  {
+      margin-top: 0px;
+
+    }
+    &__photo {
+      width: 260px;
+      height: 350px;
+      margin: 0 auto;
+      position: relative;
+      display: block;
+      display: none;
+    }
+    &__name {
+      font-size: 25px;
+    }
+    .specialization {
+      margin-right: 0;
+      &_text { 
+        font-size: 12px;
+      }
+    }
+  }
+
+  .experience {
+    padding-bottom: 45px;
+    &__block_item {
+      margin-top: 30px;
+    }
+    .specialization_text {
+      font-size: 12px;
+    }
+  }
+
+  .skills {
+    padding: 0;
+    &__block {
+      margin-top: 30px;
+      &_item {
+        padding: 10px;
+      }
+      &_photo {
+        width: 30px;
+      }
+      &_sub {
+        margin-top: 10px;
+        font-size: 13px;
+      }
+      &_descr {
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 10px;
+      }
+    }
+    .line {
+      margin-top: 0;
+    }
+  }
+
+  .portfolio {
+    .line {
+      margin-top: 0;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    padding: 0 10px;
+  }
+  .promo {
+    height: 640px;
+    padding: 20px 0 247px 0;
+    &__header {
+      margin-top: 165px;
+    }
+    &__menu {
+      height: 640px;
+      &_link {
+        font-size: 24px;
+        line-height: 36px;
+      }
+    }
+  }
+
+  .about-me {
+    padding: 40px 0 40px 0;
+    &__photo {
+      display: block;
+    }
+    &__name {
+      font-size: 24px;
+    }
+    &__descr {
+      font-size: 14px;
+    }
+    .promo__header_subtitle {
+      justify-content: start;
+    }
+    &__info {
+      margin-top: 40px;
+      display: flex;
+      justify-content: start;
+      align-items: start;
+      flex-direction: column;
+    }
+    .line {
+      margin: 0;
+    }
+  }
+
+  .experience {
+    padding-bottom: 0;
+    margin-bottom: 40px;
+  }
+
+  .skills {
+    .about-me__name {
+      line-height: 36px;
+      text-align: center;
+    }
+    .line {
+      margin-top: 10px;
+    }
+    &__block {
+      padding: 0 14px;
+      &_item {
+        padding: 25px;
+        width: 100%;
+        margin-right: 0px;
+      }
+      &_photo {
+        width: 45px;
+      }
+      &_sub {
+        font-size: 14px;
+        margin-top: 10px;
+      } 
+      &_descr {
+        line-height: 18px;
+      }
+    }
+  }
+
+  .portfolio {
+    &__block {
+      padding: 0 20px;
+      &_item {
+        width: 85%;
+        padding-top: 85%;
+      } 
+    }
+  }
+}

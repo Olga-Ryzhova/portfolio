@@ -1,0 +1,72 @@
+.about-me {
+  .container {
+    display: flex;
+  }
+  min-height: 600px;
+  padding: 100px 0;
+  &__photo {
+    width: 400px;
+    height: 450px;
+    margin-right: 50px;
+    // border: 2px solid rgb(255, 165, 1);
+    border-radius: 3em;
+
+  }
+
+  &__name {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+  }
+  &__descr {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    margin-top: 20px;
+    text-align: justify;
+  }
+  &__specialization {
+    display: flex;
+    flex-wrap:wrap;
+  }
+}
+
+.line {
+  width: 60px;
+  height: 1px;
+  border: 2px solid rgb(255, 165, 1);
+}
+.specialization {
+  display: flex;
+  width: 280px;
+  margin-top: 25px; 
+  margin-right: 25px;
+  .circle {
+    margin-right: 20px;
+    width: 36px;
+    height: 36px;
+    
+  }
+  .circle .round {
+    width: 36px;  
+    height: 36px; 
+    position: relative;
+    top: 17px;
+    left: 10px;
+  }
+  &_sub {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: left;
+  }
+  &_text {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: left;
+    margin-top: 5px;
+  }
+}
