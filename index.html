@@ -11,21 +11,48 @@
   <!-- заголовок -->
   <section class="promo">
      <!-- меню -->
-    <ul class="promo__menu">
-      <li class="promo__menu_item">
-        <a href="#aboutMe" class="promo__menu_link">ПРО МЕНЯ</a>
-      </li>
-      <li class="promo__menu_item">
-        <a href="#experience" class="promo__menu_link">ОБРАЗОВАНИЕ</a>
-      </li>
-      <li class="promo__menu_item">
-        <a href="#skills" class="promo__menu_link">МОИ НАВЫКИ</a>
-      </li>
-      <li class="promo__menu_item">
-        <a href="#portfolio" class="promo__menu_link">МОИ РАБОТЫ</a>
-      </li>
-    </ul>
-
+    
+     <div class="promo__menu">
+      <ul>
+        <li class="promo__menu_item">
+          <a href="#aboutMe" class="promo__menu_link">ПРО МЕНЯ</a>
+        </li>
+        <li class="promo__menu_item">
+          <a href="#experience" class="promo__menu_link">ОБРАЗОВАНИЕ</a>
+        </li>
+        <li class="promo__menu_item">
+          <a href="#skills" class="promo__menu_link">МОИ НАВЫКИ</a>
+        </li>
+        <li class="promo__menu_item">
+          <a href="#portfolio" class="promo__menu_link">МОИ РАБОТЫ</a>
+        </li>
+      </ul>
+    
+      <!-- Социальные сети -->
+      <div class="contacts">
+        <div class="contacts_items">
+          <a class="contacts_items-item" href="https://t.me/Olya_1106"> 
+            <svg  xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">  
+              <path d="m31.78 11.82-3.599 16.973c-.271 1.198-.98 1.496-1.985.931l-5.484-4.04-2.646 2.544c-.293.293-.537.538-1.102.538l.394-5.584 10.163-9.184c.442-.394-.096-.612-.687-.218l-12.563 7.91-5.41-1.692c-1.176-.367-1.197-1.177.245-1.74l21.157-8.151c.98-.368 1.837.218 1.517 1.714Z" fill="#000"></path>
+            </svg>
+          </a>
+          <a class="contacts_items-item" href="mailto:olya_saleeva@mail.ru"> 
+            
+            <svg  xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 50 50">     
+              <path class="contact-icon" d="M31.586 18.034a.828.828 0 0 0-.827 0L20 24.117 9.241 18.034a.828.828 0 0 0-1.241.72v7.142a2.483 2.483 0 0 0 2.483 2.483h19.034A2.483 2.483 0 0 0 32 25.896v-7.138a.83.83 0 0 0-.414-.724Z" fill="#000"></path><path d="M29.517 11H10.483A2.483 2.483 0 0 0 8 13.483v1.551a.827.827 0 0 0 .414.72l11.172 6.311a.828.828 0 0 0 .828 0l11.172-6.31a.827.827 0 0 0 .414-.72v-1.552A2.483 2.483 0 0 0 29.517 11Z" fill="#000">
+              </path>
+            </svg>
+           
+          </a>
+          <a class="contacts_items-item" href="https://github.com/Olga-Ryzhova"> 
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 -5 50 50">
+              <path d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"></path>
+          </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+   
     <!-- гамбургер -->
     <div class="promo__hamburger">
       <span></span>
@@ -335,38 +362,126 @@
             <a href="https://olga-ryzhova.github.io/Project_Uber/">
               <img src="img/works/uber.jpeg" alt="uber">
             </a>
+            <div class="portfolio__block_text">
+              <h2 class="portfolio__block_text-title">Макет интерфейса для Uber</h2>
+              <div class="portfolio__block_text-subtitle">Это статическая веб-страница, стилизованная под интерфейс Uber. Включены базовые элементы, такие как навигация, изображения и текстовые блоки. Реализована адаптивная верстка, которая делает сайт удобным для разных экранов.</div>
+              <div class="portfolio__block_text-title">Технологии:</div>
+              <ul class="portfolio__block_text-items">
+                <li class="portfolio__block_text-item">HTML5</li>
+                <li class="portfolio__block_text-item">CSS и SASS</li>
+                <li class="portfolio__block_text-item">JavaScript</li>
+                <li class="portfolio__block_text-item">Flexbox</li>
+                <li class="portfolio__block_text-item">Media Queries</li>
+              </ul>
+              <a href="https://github.com/Olga-Ryzhova/Project_Uber">
+                <img src="icons/skills/github.png" alt="uber">
+              </a>
+            </div>
           </div>
+        
 
           <div class="portfolio__block_item">
             <a href="https://olga-ryzhova.github.io/diploma_blog/">
               <img src="img/works/n4.png" alt="Noemi">
             </a>
+            <div class="portfolio__block_text">
+              <h2 class="portfolio__block_text-title">Блог в стиле минимализма</h2>
+              <div class="portfolio__block_text-subtitle">Проект представляет собой визуальную часть стильного блога с адаптивной версткой, включающий навигацию, статьи, теги, боковые разделы, поиск и форму для подписки на рассылку.</div>
+              <div class="portfolio__block_text-title">Технологии:</div>
+              <ul class="portfolio__block_text-items">
+                <li class="portfolio__block_text-item">HTML5</li>
+                <li class="portfolio__block_text-item">CSS</li>
+                <li class="portfolio__block_text-item">JavaScript</li>
+                <li class="portfolio__block_text-item">Flexbox</li>
+                <li class="portfolio__block_text-item">Media Queries</li>
+              </ul>
+              <a href="https://github.com/Olga-Ryzhova/diploma_blog">
+                <img src="icons/skills/github.png" alt="uber">
+              </a>
+            </div>
           </div>
         
           <div class="portfolio__block_item">
             <a href="https://olga-ryzhova.github.io/marvel-project">
               <img src="img/works/mar4.png" alt="Marvel">
             </a>
+            <div class="portfolio__block_text">
+              <h2 class="portfolio__block_text-title">Marvel</h2>
+              <div class="portfolio__block_text-subtitle">Проект, отображающий информацию о персонажах и комиксах Marvel с использованием API для динамической загрузки данных.</div>
+              <div class="portfolio__block_text-title">Технологии:</div>
+              <ul class="portfolio__block_text-items">
+                <li class="portfolio__block_text-item">HTML5</li>
+                <li class="portfolio__block_text-item">CSS и SASS</li>
+                <li class="portfolio__block_text-item">JavaScript</li>
+                <li class="portfolio__block_text-item">React (с функциональными компонентами)</li>
+                <li class="portfolio__block_text-item">React Router</li>
+                <li class="portfolio__block_text-item">React Helmet</li>
+                <li class="portfolio__block_text-item">Formik и Yup</li>
+                <li class="portfolio__block_text-item">Finite-state machine (FSM)</li>
+              </ul>
+              <a href="https://github.com/Olga-Ryzhova/marvel-project">
+                <img src="icons/skills/github.png" alt="uber">
+              </a>
+            </div>
           </div>
 
           <div class="portfolio__block_item">
             <a href="https://olga-ryzhova.github.io/tic-tac-toe/">
               <img  src="img/works/tic.png" alt="tic">
             </a>
+            <div class="portfolio__block_text">
+              <h2 class="portfolio__block_text-title">Игра "Крестики-нолики"</h2>
+              <div class="portfolio__block_text-subtitle">Это классическая веб-игра, в которой реализован простой, но функциональный игровой процесс с возможностью взаимодействия с пользователем, проверки победителя и смены ходов.</div>
+              <div class="portfolio__block_text-title">Технологии:</div>
+              <ul class="portfolio__block_text-items">
+                <li class="portfolio__block_text-item">HTML5</li>
+                <li class="portfolio__block_text-item">CSS</li>
+                <li class="portfolio__block_text-item">JavaScript</li>
+              </ul>
+              <a href="https://github.com/Olga-Ryzhova/tic-tac-toe">
+                <img src="icons/skills/github.png" alt="uber">
+              </a>
+            </div>
           </div>
 
           <div class="portfolio__block_item">
             <a href="https://olga-ryzhova.github.io/Project_Pulse/">
               <img src="img/works/pulse.jpeg" alt=pulse"">
             </a>
+            <div class="portfolio__block_text">
+              <h2 class="portfolio__block_text-title">Магазин пульсометров</h2>
+              <div class="portfolio__block_text-subtitle">Это веб-страница для выбора пульсометра, с каталогом товаров, таблицами с описаниями и ценами, отзывами пользователей и формой для заказа звонка.</div>
+              <div class="portfolio__block_text-title">Технологии:</div>
+              <ul class="portfolio__block_text-items">
+                <li class="portfolio__block_text-item">HTML5</li>
+                <li class="portfolio__block_text-item">CSS и SCSS</li>
+                <li class="portfolio__block_text-item">JavaScript</li>
+                <li class="portfolio__block_text-item">Media Queries</li>
+              </ul>
+              <a href="https://github.com/Olga-Ryzhova/Project_Pulse">
+                <img src="icons/skills/github.png" alt="uber">
+              </a>
+            </div>
           </div>
 
           <div class="portfolio__block_item">
             <a href="https://olga-ryzhova.github.io/events/">
               <img src="img/works/gnome2.png" alt="gnome">
             </a>
+            <div class="portfolio__block_text">
+              <h2 class="portfolio__block_text-title">Игра "Поймай персонажа"</h2>
+              <div class="portfolio__block_text-subtitle">Это простая игра, в которой нужно поймать выходящего персонажа, избегая пропусков. При пропуске 5 раз игрок проигрывает.</div>
+              <div class="portfolio__block_text-title">Технологии:</div>
+              <ul class="portfolio__block_text-items">
+                <li class="portfolio__block_text-item">HTML5</li>
+                <li class="portfolio__block_text-item">CSS</li>
+                <li class="portfolio__block_text-item">JavaScript</li>
+              </ul>
+              <a href="https://github.com/Olga-Ryzhova/events">
+                <img src="icons/skills/github.png" alt="uber">
+              </a>
+            </div>
           </div>
-
         </div>
       </div>
     </div>

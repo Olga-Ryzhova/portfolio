@@ -3,13 +3,16 @@
   box-sizing: border-box;
   margin: 0;
   scroll-behavior: smooth;
+  
 }
+
 
 .container {
   display: block;
   position: relative;
   max-width: 1000px;
   margin: 0 auto;
+  
 }
 
 @import 'blocks/promo';

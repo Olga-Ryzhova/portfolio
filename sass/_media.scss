@@ -7,7 +7,7 @@
     padding: 200px 0 200px 0;
     &__menu {
       height: 500px;
-      width: 230px;
+      width: 240px;
       &_link {
         font-size: 20px;
         line-height: 20px;
@@ -78,10 +78,10 @@
     padding: 0 40px;
   }
   .promo {
-    height: 350px;
+    height: 450px;
     padding: 100px 0 100px 0;
     &__menu {
-      height: 350px;
+      height: 450px;
       &_link {
         line-height: 15px;
       }
@@ -187,20 +187,31 @@
   .portfolio {
     &__block {
       margin-top: 40px;
+      &_text {
+        &-title {
+          font-size: 15px;
+          &-subtitle { 
+            font-size: 13px;
+          }
+          &-item { 
+            font-size: 13px;
+          }
+        }
+      }
     }
   }
 }
 
 @media (max-width: 767px) {
   .promo {
-    height: 250px;
-    padding: 50px 0 50px 0;
+    height: 400px;
+    padding: 60px 0 60px 0;
     &__menu {
-      height: 250px;
+      height: 400px;
       padding: 20px 30px;
       &_link {
         line-height: 5px;
-        font-size: 18px;
+        font-size: 20px;
       }
     }
     &__header__title {
@@ -290,6 +301,34 @@
     .line {
       margin-top: 0;
     }
+    &__block {
+      &_item {
+        flex-direction: column;
+        // img {
+        //   height: 230px;
+        // }
+        
+      } 
+      &_text {
+        margin-top: 10px;
+        &-title {
+          font-size: 15px;
+          text-align: center;
+        }
+        &-subtitle { 
+          font-size: 13px;
+        }
+        &-items {
+  
+          align-items: center;
+          justify-content:  center;
+        }
+        &-item { 
+          font-size: 13px;
+
+        }
+      }
+    }
   }
 }
 
@@ -373,11 +412,31 @@
 
   .portfolio {
     &__block {
-      padding: 0 20px;
+      padding: 0 14px;
       &_item {
-        width: 85%;
-        padding-top: 85%;
+        padding: 0;
+        &_item {
+          width: 85%;
+          padding-top: 85%;
+   
+        flex-direction: column;
+        }
       } 
+      &_text {
+        padding: 0 10px;
+        margin-top: 10px;
+        &-title {
+          font-size: 14px;
+          text-align: center;
+        }
+        &-subtitle { 
+          font-size: 12px;
+        }
+        &-item { 
+          font-size: 12px;
+          padding: 5px;
+        }
+      }
     }
   }
 }

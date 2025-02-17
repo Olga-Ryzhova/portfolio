@@ -1,13 +1,13 @@
 .promo {
   height: 600px;
   padding: 206px 0 362px 0;
-  background: linear-gradient(90deg, #b9deed, #efefef);
+  background:  linear-gradient(90deg, #b9deed, #efefef);
   box-sizing: border-box;
   &__menu {
     display: flex;
     position: fixed;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: start;
     top: 0;
     left: -100%;
@@ -17,7 +17,15 @@
     background-color: rgb(255, 165, 1);
     transition: 0.6s all;
     z-index: 1;
-    // position: absolute;
+    ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      padding: 0px 0px;
+      margin: 0;
+      height: 100%;   
+    }
     &_active {
       left: 0;
     }
@@ -129,4 +137,14 @@
   display: inline-block;
   text-align: right;
   line-height: 36px;
+}
+
+.contacts {
+  // margin-top: auto; 
+  // display: flex;
+  // flex-direction: column;
+  // gap: 10px;
+  &_items-item {
+    text-decoration: none;
+  }
 }
