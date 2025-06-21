@@ -147,6 +147,13 @@
     }
     &__block {
       margin-top: 45px;
+      width: 100%;
+    }
+    &__block:nth-child(2) {
+      &::before {
+        content: '';
+        height: calc(100% - 11px);
+      }
     }
     .specialization_sub {
       font-size: 14px;
@@ -156,6 +163,10 @@
     }
     .specialization_text {
       font-size: 13px;
+    }
+    .exp {
+      flex-direction: column;
+      gap: 20px
     }
   }
  
@@ -358,6 +369,8 @@
     }
     &__name {
       font-size: 24px;
+      line-height: 30px;
+      margin-bottom: 10px;
     }
     &__descr {
       font-size: 14px;
